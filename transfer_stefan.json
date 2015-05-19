@@ -7,7 +7,7 @@
                 "on": {
                     "event": "ring",
                     "say": {
-                        "value": "http://www.phono.com/audio/holdmusic.mp3 Bitte haben Sie einen Moment Geduld. Sie werden verbunden.",
+                        "value": "Bitte haben Sie einen Moment Geduld. Sie werden verbunden.",
                         "voice": "stefan"
                     }
                 }
