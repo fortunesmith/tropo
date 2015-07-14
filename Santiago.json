@@ -1,0 +1,26 @@
+{  
+   "tropo":[  
+      {  
+         "say":{  
+            "voice":"jorge",
+            "value":"Estoy programado para entender frases como: \"quiero un taxi para ma\u00f1ana a las 9 y media en la estaci\u00f3n de atocha\", \"quiero cancelar mi \u00faltima reserva\" \u00f3 \"quiero hablar con un agente\"."
+         }
+      },
+      {  
+         "record":{  
+            "url":"http://xmpslhdemo.appspot.com/tropotaxi/parse-response?callId=861b751c0c3c361a802106ca964a761f&sequence=3",
+            "maxSilence":1,
+            "timeout":5,
+            "bargein":true,
+            "maxTime":10,
+            "voice":"jorge"
+         }
+      },
+      {  
+         "on":{  
+            "event":"continue",
+            "next":"/tropotaxi/continue"
+         }
+      }
+   ]
+}
