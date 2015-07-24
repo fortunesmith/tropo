@@ -1,0 +1,26 @@
+{
+    "tropo": [
+        {
+            "on": {
+                "event": "joinconf",
+                "say": [
+                    {
+                        "value": "Nice answer!",
+                        "voice": "Victor"
+                    }
+                ]
+            }
+        },
+        {
+            "wait": {
+                "milliseconds": 60000,
+                "allowSignals": [
+                    "joinconf",
+                    "continue",
+                    "error",
+                    "hangup"
+                ]
+            }
+        }
+    ]
+}
