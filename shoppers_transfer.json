@@ -1,0 +1,46 @@
+{
+    "tropo": [
+        {
+            "call": {
+                "to": [
+                    "14072675766"
+                ],
+                "from": "15187674353"
+            }
+        },
+        {
+            "say": {
+                "value": "Please wait while you are connected to the shop.",
+                "voice": "kate"
+            }
+        },
+        {
+            "startRecording": {
+                "format": "audio\wav",
+                "url": "ftp://PhilBellanti:2308_Vacation@ftp.tropo.com/recordings/transfertest.wav"
+            }
+        },
+        {
+            "transfer": {
+                "to": [
+                    "14075386736"
+                ],
+                "from": "14075385563",
+                "on": {
+                    "event": "ring",
+                    "next": "",
+                    "say": {
+                        "value": "http:\\internal.shopperscritique.com\internal\Calls\phoneRing.mp3"
+                    }
+                },
+                "timeout": 100.0,
+                "playTones": true
+            }
+        },
+        {
+            "stopRecording": {
+                
+            }
+        }
+    ]
+}
