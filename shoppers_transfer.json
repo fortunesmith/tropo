@@ -30,7 +30,7 @@
                     "event": "ring",
                     "next": "",
                     "say": {
-                        "value": "http:\\internal.shopperscritique.com\internal\Calls\phoneRing.mp3"
+                        "value": "http://internal.shopperscritique.com/internal/Calls/phoneRing.mp3"
                     }
                 },
                 "timeout": 100.0,
