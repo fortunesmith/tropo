@@ -7,7 +7,7 @@
             "on":{
                "event":"ring",
                "say":{
-                  "value":"http://www.phono.com/audio/holdmusic.mp3"
+                  "value":"http://tropo.shopperscritique.com/phoneRing.mp3"
                }
             }
          }
