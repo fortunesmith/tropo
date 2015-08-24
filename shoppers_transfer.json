@@ -16,7 +16,7 @@
         },
         {
             "startRecording": {
-                "format": "audio\wav",
+                "format": "audio/wav",
                 "url": "ftp://PhilBellanti:2308_Vacation@ftp.tropo.com/recordings/transfertest.wav"
             }
         },
